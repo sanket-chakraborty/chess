@@ -70,10 +70,8 @@ export const Game = () => {
             setBoard(chess.board());
 
             if (moveResult) {
-              // Get the move number (half-move / 2, rounded up)
               const fullMoveNumber = Math.ceil(chess.moveNumber() / 2);
 
-              // Check if we already have an entry for this move number
               const existingMoveIndex = moveHistory.findIndex(
                 (m) => m.moveNumber === fullMoveNumber
               );
