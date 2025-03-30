@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DRAW_RESPONSE = exports.OFFER_DRAW = exports.RESIGN = exports.GAME_STATUS = exports.CLOCK_UPDATE = exports.JOIN_QUEUE = exports.GAME_OVER = exports.MOVE = exports.INIT_GAME = void 0;
+exports.INIT_GAME = 'init_game';
+exports.MOVE = 'move';
+exports.GAME_OVER = 'game_over';
+exports.JOIN_QUEUE = 'join_queue';
+exports.CLOCK_UPDATE = 'clock_update';
+exports.GAME_STATUS = 'game_status';
+exports.RESIGN = "resign";
+exports.OFFER_DRAW = "offer_draw";
+exports.DRAW_RESPONSE = "draw_response";

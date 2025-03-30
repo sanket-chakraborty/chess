@@ -1,0 +1,9 @@
+export const INIT_GAME = 'init_game';
+export const MOVE = 'move';
+export const GAME_OVER = 'game_over';
+export const JOIN_QUEUE = 'join_queue';
+export const CLOCK_UPDATE = 'clock_update';
+export const GAME_STATUS = 'game_status';
+export const RESIGN = "resign";
+export const OFFER_DRAW = "offer_draw";
+export const DRAW_RESPONSE = "draw_response";
